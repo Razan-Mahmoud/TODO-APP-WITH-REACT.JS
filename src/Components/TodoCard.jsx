@@ -1,20 +1,32 @@
 import React from 'react'
 
+
+import ReactDOM from 'react-dom'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faPenToSquare } from '@fortawesome/free-solid-svg-icons'
+import { faTrashCan } from '@fortawesome/free-solid-svg-icons'
+
+const element = <FontAwesomeIcon icon={faPenToSquare} />
+const trashElement = <FontAwesomeIcon icon={faTrashCan} />
+
+
+
+
 export default function TodoCard(props) {
   const { children, deleteTodo, index, editTodo } = props
-
+ 
   return (
     <li className='todoLi'>
       {children}
       <div className='divIcon'>
 
-        <i onClick={() => {
+        <button onClick={() => {
           editTodo(index)
-        }} className="fa-solid fa-pen-to-square icon" aria-hidden="true"></i><span class="fa-sr-only">Edit Icon</span>
+        }} className="icon" aria-hidden="true">{element}</button><span className="fa-sr-only">Edit Icon</span>
 
-        <i onClick={() => {
+        <button onClick={() => {
           deleteTodo(index)
-        }} className="fa-solid fa-trash-can icon" aria-hidden="true"></i><span class="fa-sr-only">Delete Icon</span>
+        }} className="icon" aria-hidden="true">{trashElement}</button><span className="fa-sr-only">Delete Icon</span>
       </div>
     </li>
   )

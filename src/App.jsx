@@ -1,7 +1,10 @@
 import React, { useEffect, useState } from 'react'
 import TodoInput from './Components/TodoInput'
 import TodoList from './Components/TodoList'
-import '../node_modules/@fortawesome/fontawesome-free/css/all.min.css'
+// import '../node_modules/@fortawesome/fontawesome-free/css/all.min.css'
+
+
+
 
 
 export default function App() {

@@ -64,6 +64,8 @@ ul{
     margin-left: 8px;
     font-size: 1.2rem;
     cursor: pointer;
+    border: none;
+    background-color: transparent;
  }
  p{
     margin: 0px;
