@@ -1,8 +1,12 @@
-# React + Vite
+# Todo App with React.JS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple app I did as a practice, following the steps mentioned in Smoljames's video -link below. Thanks a lot, James, that was a great video and to the point. Tha app is built with React.JS and Vite. In addition, I used the Font Awesome React Component, from which docs I got loads of help: THANKS guys!
 
-Currently, two official plugins are available:
+You can reach this app via:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Todo-App-With-React.JS](https://razan-mahmoud.github.io/TODO-APP-WITH-REACT.JS/)
+
+The helpful video I rellied on to create this app:
+- [React.JS Full Course - Build 4 Projects in 5 Hours | Zero to Hero](https://youtu.be/82PXenL4MGg?si=WiS99uN-c8JTyc_D.) 
+
+Looking forward for your comments and suggestions!
