@@ -1,6 +1,6 @@
 # Todo App with React.JS
 
-This is a simple app I did as a practice, following the steps mentioned in Smoljames's video -link below. Thanks a lot, James, that was a great video and to the point. Tha app is built with React.JS and Vite. In addition, I used the Font Awesome React Component, from which docs I got loads of help: THANKS guys!
+This is a simple app I did as a practice, following the steps mentioned in Smoljames's video -link below. Thanks a lot, James, that was a great video and to the point. The app is built with React.JS and Vite. In addition, I used the Font Awesome React Component, from which docs I got loads of help: THANKS guys!
 
 You can reach this app via:
 
